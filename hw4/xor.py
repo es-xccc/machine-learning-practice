@@ -51,9 +51,9 @@ for i in range(len(x)):
 
 # loss_epoch.jpg
 plt.plot(loss_epoch)
-plt.title("Loss vs Epochs")
+plt.title("Loss (mse) vs. Epochs")
 plt.xlabel("Epochs")
-plt.ylabel("Loss")
+plt.ylabel("Loss (mse)")
 plt.grid()
 plt.savefig("loss_epoch.jpg")
 
